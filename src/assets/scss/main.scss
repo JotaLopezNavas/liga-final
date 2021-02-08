@@ -1,0 +1,20 @@
+$color01:#033540;
+$color02:#A2F229;
+$color03:#AEF249;
+$color04:#F2E205;
+$color05:#F2F2F2;
+
+@import 'layout/transicion';
+@import 'layout/navbar';
+@import 'layout/piepag';
+@import 'layout/social';
+@import 'layout/id';
+
+@import 'theme/body';
+
+@import 'views/home';
+@import 'views/rules';
+@import 'views/cover';
+@import 'views/registration';
+@import 'views/info';
+@import 'views/newchat';

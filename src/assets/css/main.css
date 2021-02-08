@@ -1,0 +1,105 @@
+#transicion .bounce-enter-active {
+  animation: bounce-in 0.5s;
+}
+#transicion .bounce-leave-active {
+  animation: bounce-in 0.5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#Navbar {
+  padding-bottom: 1.8%;
+}
+
+#PiePag {
+  padding-top: 1.8%;
+  padding-bottom: 1.8%;
+}
+
+#social p {
+  text-align: center;
+}
+
+#IdE p {
+  text-align: right;
+}
+
+body {
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  .col-md-12 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+header {
+  padding-bottom: 1.8%;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+}
+
+#scrollTest p {
+  text-align: justify;
+  padding-right: 1.8%;
+}
+
+#Cover {
+  display: flex;
+  justify-content: center;
+}
+
+#registro {
+  overflow-y: scroll;
+  width: 100%;
+  height: 5%;
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 992px) {
+  .ocultable {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  /*boortrasp md*******************************/
+  .ocultable {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+.icono {
+  width: 2rem;
+  height: 2rem;
+}
+
+.avat {
+  width: 3rem;
+  height: 3rem;
+}
+
+#cuadrado {
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+}

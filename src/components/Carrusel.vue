@@ -1,0 +1,25 @@
+<template>
+    <div>
+  <b-carousel
+    id="carousel-fade"
+    style="text-shadow: 0px 0px 2px #000"
+    fade
+    indicators
+    img-width="1024"
+    img-height="480"
+  >
+    <b-carousel-slide
+      caption=""
+      img-src="https://www.northsidesoccer.com/img/carousel/rec-game.jpg"
+    ></b-carousel-slide>
+    <b-carousel-slide
+      caption=""
+      img-src="https://bsbproduction.s3.amazonaws.com/portals/4565/images/u17%20boys.jpg"
+    ></b-carousel-slide>
+    <b-carousel-slide
+      caption=""
+      img-src="https://sportsandrecnorthside.demosphere-secure.com/_files/sports-leagues/recreational-soccer/Untitled%20(1).png"
+    ></b-carousel-slide>
+  </b-carousel>
+</div>
+</template>

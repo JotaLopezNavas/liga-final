@@ -1,0 +1,333 @@
+<template>
+  <div id="registro">
+    <div id="container">
+      <b-container class="bv-example-row">
+        <div id="pageheader">
+          <h1>Registration Form</h1>
+        </div></b-container
+      >
+      <div id="bodycontent">
+        <form method="get" action="show_data.html">
+          <div class="stylized">
+            <b-container class="bv-example-row">
+              <b-row>
+                <b-col class="bordeCol"
+                  ><label for="first_name">Player's First Name:</label>
+                  <input type="text" name="first_name" id="first_name"
+                /></b-col>
+                <b-col class="bordeCol"
+                  ><label for="last_name">Last Name:</label>
+                  <input type="text" name="last_name" id="last_name"
+                /></b-col>
+                <b-col class="bordeCol"
+                  ><label for="street_address">Street Address:</label>
+                  <input type="text" name="street_address" id="street_address"
+                /></b-col>
+              </b-row>
+              <b-row>
+                <b-col class="bordeCol"
+                  ><label for="city">City:</label>
+                  <input type="text" name="city" id="city"
+                /></b-col>
+                <b-col class="bordeCol"
+                  ><label for="zip">Zip Code:</label>
+                  <input type="text" name="zip" id="zip"
+                /></b-col>
+                <b-col class="bordeCol"
+                  ><label for="birth_date">Birth Date (mm/dd/yyyy):</label>
+                  <input type="text" name="birth_date" id="birth_date"
+                /></b-col>
+              </b-row>
+              <b-row>
+                <b-col class="bordeCol"
+                  ><label for="parent_guardian">Parent/Guardian Name:</label>
+                  <input
+                    type="text"
+                    name="parent_guardian"
+                    id="parent_guardian"
+                /></b-col>
+                <b-col class="bordeCol"
+                  ><label for="contact_phone">Contact Phone:</label>
+                  <input type="text" name="contact_phone" id="contact_phone"
+                /></b-col>
+                <b-col class="bordeCol"
+                  ><label for="contact_email">Contact Email:</label>
+                  <input type="text" name="contact_email" id="contact_email"
+                /></b-col>
+              </b-row>
+            </b-container>
+          </div>
+
+          <fieldset>
+            <b-container class="bv-example-row">
+              <b-col class="bordeCol"><legend>Gender:</legend></b-col>
+              <b-col class="bordeCol"
+                ><label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female" />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male"
+              /></b-col>
+            </b-container>
+          </fieldset>
+
+          <fieldset>
+            <b-container class="bv-example-row">
+              <b-col class="bordeCol"><legend>Grade:</legend></b-col>
+              <b-col class="bordeCol"
+                ><label for="pre_school">Pre-School</label>
+                <input
+                  type="radio"
+                  name="grade"
+                  id="pre_school"
+                  value="pre_school" />
+                <label for="1st">1st</label>
+                <input type="radio" name="grade" id="1st" value="1st" />
+                <label for="2nd">2nd</label>
+                <input type="radio" name="grade" id="2nd" value="2nd" />
+                <label for="3rd">3rd</label>
+                <input type="radio" name="grade" id="3rd" value="3rd" />
+                <label for="4th">4th</label>
+                <input type="radio" name="grade" id="4th" value="4th" />
+                <label for="5th">5th</label>
+                <input type="radio" name="grade" id="5th" value="5th"
+              /></b-col>
+            </b-container>
+          </fieldset>
+
+          <fieldset>
+            <b-container class="bv-example-row">
+              <b-col class="bordeCol"
+                ><legend>
+                  Which elementary schools do you live near?
+                </legend></b-col
+              >
+              <b-row>
+                <b-col class="bordeCol"
+                  ><label for="school_1" class="impinfo"
+                    >First Closest School:</label
+                  >
+                  <select name="school_1" id="school_1">
+                    <option value="katzenmaier">AJ Katzenmaier</option>
+                    <option value="greenbay">Greenbay</option>
+                    <option value="yeager">Howard A Yeager</option>
+                    <option value="hart">Marjorie P Hart</option>
+                    <option value="north">North Elementary</option>
+                    <option value="south">South Elementary</option>
+                  </select></b-col
+                >
+
+                <b-col class="bordeCol"
+                  ><label for="school_2" class="impinfo"
+                    >Second Closest School:</label
+                  >
+                  <select name="school_2" id="school_2">
+                    <option value="katzenmaier">AJ Katzenmaier</option>
+                    <option value="greenbay">Greenbay</option>
+                    <option value="yeager">Howard A Yeager</option>
+                    <option value="hart">Marjorie P Hart</option>
+                    <option value="north">North Elementary</option>
+                    <option value="south">South Elementary</option>
+                  </select></b-col
+                >
+              </b-row></b-container
+            >
+          </fieldset>
+
+          <b-container class="bv-example-row">
+            <fieldset>
+              <b-col class="bordeCol">
+                <legend>
+                  What position(s) do you normally play?
+                  <span class="note">(check all that apply)</span>
+                </legend></b-col
+              >
+              <b-col class="bordeCol"
+                ><label for="n_forward">Forward</label>
+                <input
+                  type="checkbox"
+                  name="normal_position"
+                  id="n_forward"
+                  value="n_forward"
+                />
+                <label for="n_defense">Defense</label>
+                <input
+                  type="checkbox"
+                  name="normal_position"
+                  id="n_defense"
+                  value="n_defense"
+                />
+                <label for="n_midfield">Midfield</label>
+                <input
+                  type="checkbox"
+                  name="normal_position"
+                  id="n_midfield"
+                  value="n_midfield"
+                />
+                <label for="n_goalkeeper">Goalkeeper</label>
+                <input
+                  type="checkbox"
+                  name="normal_position"
+                  id="n_goalkeeper"
+                  value="n_goalkeeper"
+                />
+              </b-col>
+            </fieldset>
+            <b-col class="bordeCol">
+              <label for="uniform" class="impinfo"
+                >Already Have a Uniform</label
+              >
+              <input type="checkbox" name="uniform" id="uniform" /> </b-col
+          ></b-container>
+          <b-container class="bv-example-row">
+            <fieldset>
+              <b-col class="bordeCol"> <legend>Jersey Size:</legend></b-col>
+              <b-col class="bordeCol">
+                <span class="uniformchoice">
+                  <label for="j_y_small">Youth Small</label>
+                  <input
+                    type="radio"
+                    name="jersey_size"
+                    id="j_y_small"
+                    value="j_y_small"
+                  />
+                  <label for="j_y_medium">Youth Medium</label>
+                  <input
+                    type="radio"
+                    name="jersey_size"
+                    id="j_y_medium"
+                    value="j_y_medium"
+                  />
+                  <label for="j_y_large">Youth Large</label>
+                  <input
+                    type="radio"
+                    name="jersey_size"
+                    id="j_y_large"
+                    value="j_y_large"
+                  />
+                  <label for="j_small">Small</label>
+                  <input
+                    type="radio"
+                    name="jersey_size"
+                    id="j_small"
+                    value="j_small"
+                  />
+                  <label for="j_medium">Medium</label>
+                  <input
+                    type="radio"
+                    name="jersey_size"
+                    id="j_medium"
+                    value="j_medium"
+                  />
+                  <label for="j_large">Large</label>
+                  <input
+                    type="radio"
+                    name="jersey_size"
+                    id="j_large"
+                    value="j_large"
+                  />
+                  <label for="j_x_large">Extra-Large</label>
+                  <input
+                    type="radio"
+                    name="jersey_size"
+                    id="j_x_large"
+                    value="j_x_large"
+                  /> </span
+              ></b-col>
+            </fieldset>
+          </b-container>
+
+          <b-container class="bv-example-row">
+            <fieldset>
+              <b-col class="bordeCol"> <legend>Shorts Size:</legend></b-col>
+              <b-col class="bordeCol"
+                ><span class="uniformchoice">
+                  <label for="s_y_small">Youth Small</label>
+                  <input
+                    type="radio"
+                    name="shorts_size"
+                    id="s_y_small"
+                    value="s_y_small"
+                  />
+                  <label for="s_y_medium">Youth Medium</label>
+                  <input
+                    type="radio"
+                    name="shorts_size"
+                    id="s_y_medium"
+                    value="s_y_medium"
+                  />
+                  <label for="s_y_large">Youth Large</label>
+                  <input
+                    type="radio"
+                    name="shorts_size"
+                    id="s_y_large"
+                    value="s_y_large"
+                  />
+                  <label for="s_small">Small</label>
+                  <input
+                    type="radio"
+                    name="shorts_size"
+                    id="s_small"
+                    value="s_small"
+                  />
+                  <label for="s_medium">Medium</label>
+                  <input
+                    type="radio"
+                    name="shorts_size"
+                    id="s_medium"
+                    value="s_medium"
+                  />
+                  <label for="s_large">Large</label>
+                  <input
+                    type="radio"
+                    name="shorts_size"
+                    id="s_large"
+                    value="s_large"
+                  />
+                  <label for="s_x_large">Extra-Large</label>
+                  <input
+                    type="radio"
+                    name="shorts_size"
+                    id="s_x_large"
+                    value="s_x_large"
+                  /> </span
+              ></b-col></fieldset
+          ></b-container>
+
+          <b-container class="bv-example-row">
+            <b-col class="bordeCol"><h3>Permission to Play</h3></b-col>
+            <b-col class="bordeCol"
+              ><div class="contract">
+                <p>
+                  I, the parent or guardian of the minor registrant, agree that
+                  the registrant and I will abide by all the rules of the
+                  Northside Youth Soccer League (NYSL). In recognizing the
+                  possibility of physical injury associated with soccer and in
+                  consideration for the "League" accepting the registrant for
+                  its soccer programs and activities, I hereby release,
+                  discharge, and/or otherwise indemnify NYSL, their employees
+                  and associated personnel and volunteers, including the
+                  facilities used for practices and games, against any claim by
+                  or on behalf of the registrant as a result of the registrant's
+                  participation in the program and/or being transported to or
+                  from NYSL sponsored activities, which transportation.
+                </p>
+                <p>
+                  By entering my name below, I hereby agree and authorize the
+                  above. In addition, by entering my name below, I also
+                  acknowledge that I have read the cancellation policy and agree
+                  to its terms.
+                </p>
+                <p>
+                  <label for="signature">Parent/Guardian Signature:</label>
+                  <input type="text" name="signature" id="signature" />
+                  <label for="sig_date">Date:</label>
+                  <input type="text" name="sig_date" id="sig_date" />
+                </p></div
+            ></b-col>
+            <p><input type="submit" /></p>
+          </b-container>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>

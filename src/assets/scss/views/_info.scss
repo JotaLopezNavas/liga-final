@@ -1,0 +1,26 @@
+
+@media only screen and (max-width: 1500px) and (min-width: 992px) {
+    .ocultable {
+        display: none !important;
+     }
+   }
+   
+   @media screen and (max-width: 992px) and (orientation: landscape) {
+       /*boortrasp md*******************************/
+       .ocultable {
+           -ms-flex: 0 0 50% !important;
+           flex: 0 0 50% !important;
+           max-width: 50% !important;
+       }
+   }
+   
+   .icono{
+     width: 2rem;
+
+     height:2rem;
+   }
+    
+   .avat{
+    width: 3rem;
+    height:3rem;
+ }

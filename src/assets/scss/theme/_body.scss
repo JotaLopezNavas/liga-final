@@ -1,0 +1,19 @@
+body{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    text-align: justify;
+}
+@media screen and (max-width: 992px) and (orientation: landscape) {
+    .col-md-12 { -ms-flex: 0 0 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+header{
+    padding-bottom: 1.8%;
+}
